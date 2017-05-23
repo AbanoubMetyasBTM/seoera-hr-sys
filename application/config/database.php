@@ -48,10 +48,10 @@
 $active_group = 'default';
 $active_record = TRUE;
 
-$db['default']['hostname'] = 'localhost';
-$db['default']['username'] = 'seoera_sys';
-$db['default']['password'] = 'wB3fh4L8eiUr';
-$db['default']['database'] = 'seoera_sys';
+$db['default']['hostname'] = 'mysql://mysql:3306/';
+$db['default']['username'] = 'root';
+$db['default']['password'] = 'root';
+$db['default']['database'] = 'sys';
 $db['default']['dbdriver'] = 'mysql';
 $db['default']['dbprefix'] = '';
 $db['default']['pconnect'] = TRUE;
